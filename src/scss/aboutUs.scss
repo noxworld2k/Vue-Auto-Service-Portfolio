@@ -1,0 +1,74 @@
+.aboutus__container {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #23222a;
+  color: white;
+}
+
+.aboutus__content {
+  display: flex;
+  background-image: url("../assets/caraa1.png");
+  min-height: 503px;
+  max-height: 600px;
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1 1 0;
+  text-align: center;
+
+  h1 {
+    margin: 3rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+
+    span {
+      font-weight: 500;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+  }
+    p {
+      padding: 10px 10rem;
+      margin-bottom: 20px;
+    }
+    a {
+      text-transform: uppercase;
+        color: rgb(35, 34, 41);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1rem;
+       padding: 10px 25px;
+       background: #057c66;
+        border-radius: 30px;
+    }
+}
+
+.aboutus__container__images {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+
+  .img1 {
+    padding: 15px;
+    background-color: #057c66;
+    border-radius: 15px;
+    max-width: 300px;
+    margin-top: 3rem;
+    margin-right: 20px;
+  }
+}

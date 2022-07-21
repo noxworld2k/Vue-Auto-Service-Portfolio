@@ -1,0 +1,27 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import "utilities";
+@import "header";
+@import "maincontent.scss";
+@import "blurbs";
+@import "contact";
+@import "footer";
+@import "client";
+@import "aboutUs.scss";
+@import "login.scss";
+@import "RegistrationForm.scss";
+@import "AboutUsPage/AboutUsPage.scss";
+@import "admin/admin.scss";
+@import "admin/users.scss";
+
+root {
+
+ span,p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+   color: #ffffff;
+
+ }
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+

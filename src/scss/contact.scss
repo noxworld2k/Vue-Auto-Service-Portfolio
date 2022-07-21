@@ -1,0 +1,125 @@
+.contact__section {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #23222b;
+}
+
+.contact__map {
+  margin: 5rem 0;
+  h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+.contact__box {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  flex: 1 1 0;
+  h2, h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 15px 0;
+    text-align: center;
+  }
+  p {
+    font-size: 1.2rem;
+    margin: 16px 16px 16px 3.2rem;
+    color: #fff;
+    text-align: left;
+  }
+}
+
+.form__box {
+  width: 100%;
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 30px auto;
+    padding: 0;
+    label {
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 15px 0;
+      padding: 0;
+        color: #fff;
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 15px 0;
+        padding: 10px 15px;
+        background-color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      min-width: 300px;
+    }
+    button:hover {
+        background-color: #075448;
+    }
+    button:active {
+        background-color: #0ca28b;
+    }
+    .btn__send-emailjs {
+      width: 100%;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 15px 0;
+      padding: 10px 15px;
+      background-color: #0ca28b;
+      color: #ffffff;
+      border-radius: 30px;
+    }
+    .btn__send-emailjs:disabled {
+      background-color: #788080;
+      color: #ffffff;
+    }
+  }
+}
+.message__result {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  margin: 0 auto;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #057b66;
+}
+.map__flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flex__one {
+  flex: 1 1 0;
+}
+
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}

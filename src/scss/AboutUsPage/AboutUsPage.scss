@@ -1,0 +1,121 @@
+.aboutus__absolute {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 127vh;
+  background-color: #057b66;
+  z-index: 1;
+}
+
+.container__cover-absolute {
+  z-index: 2;
+}
+
+.container__aboutus {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #232229;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+
+}
+
+.container__aboutus-image {
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  img {
+    max-width: 920px;
+    border-radius: 30px;
+    z-index: 2;
+  }
+}
+
+.blurb__about__us-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  z-index: 2;
+}
+
+.blurb__about__us {
+  color: #111111;
+  text-align: left;
+  box-sizing: border-box;
+  flex: 1;
+  max-width: 180px;
+  transition-duration: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 30px;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 50px;
+
+  h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 15px;
+  }
+
+
+  .blurb__about__us-icon {
+    background-color: #057b66;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    padding: 15px;
+    z-index: 2;
+    color: #FFFFFF;
+    font-size: 4.5rem;
+
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.aboutus__desc {
+  position: relative;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    max-width: 600px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border-radius: 60px;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+   margin: 2rem;
+
+    p{
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+}
+
