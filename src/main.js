@@ -3,8 +3,8 @@ import store from "./stores/store";
 import "./scss/main.scss";
 import App from "./App.vue";
 import router from "./router";
-import axios from 'axios'
-import VueAxios from 'vue-axios'
+import axios from "axios";
+import VueAxios from "vue-axios";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -18,6 +18,7 @@ import VueGoogleMaps from "@fawmi/vue-google-maps";
 const app = createApp(App);
 app.use(VueAxios, axios);
 app.use(store);
+
 app.use(router);
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.use(VueGoogleMaps, {
