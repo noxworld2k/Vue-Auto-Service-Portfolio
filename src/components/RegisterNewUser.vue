@@ -29,7 +29,7 @@
           <label>Confirm Password</label>
           <Field
             type="password"
-            :rules="formValidator.repeatPassword"
+            :rules="formValidator.passwordConfirmation"
             name="repeatPassword"
             placeholder="Confirm password"
           />
@@ -73,6 +73,7 @@ export default {
     return {
       email: ref(""),
       password: ref(""),
+      repeatPassword: ref(""),
       userRegistered: false,
     };
   },
@@ -87,7 +88,6 @@ export default {
           console.error(err);
         });
     },
-    singInWithGoogle: function () {},
   },
   computed: {
     formValidator() {
