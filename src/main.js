@@ -13,12 +13,12 @@ import {
   faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons";
 library.add(faFacebookSquare, faInstagramSquare, faTwitterSquare);
+
 import VueGoogleMaps from "@fawmi/vue-google-maps";
 
 const app = createApp(App);
 app.use(VueAxios, axios);
 app.use(store);
-
 app.use(router);
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.use(VueGoogleMaps, {

@@ -26,7 +26,6 @@ export default createStore({
           return this.password === value;
         }),
     },
-    apiKey: "AIzaSyDtO44v0BYXzuIAK1PYsDqDM8MM-TAYzOU",
   },
   getters: {},
   actions: {},

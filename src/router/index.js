@@ -3,8 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import ContactPage from "../views/ContactPage.vue";
 import RegisterForm from "../views/RegisterForm.vue";
-import adminPanel from "../views/AdminPanel.vue";
-
+import UserPanel from "../views/UserPanelView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,10 +29,10 @@ const router = createRouter({
       component: RegisterForm,
     },
     {
-      path: "/admin-panel",
-      name: "admin-panel",
-      component: adminPanel,
-    }
+      path: "/user",
+      name: "user",
+      component: UserPanel,
+    },
   ],
 });
 
