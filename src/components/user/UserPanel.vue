@@ -9,29 +9,28 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
       <div class="admin_menu_item">
-        <RouterLink to="/admin/users">Personal Data </RouterLink>
-        <RouterLink to="/admin/users">Cars</RouterLink>
-        <RouterLink to="/admin/users">Repairs</RouterLink>
-        <RouterLink to="/admin/users">Time Table</RouterLink>
+        <RouterLink to="/user">Personal Data </RouterLink>
+        <RouterLink to="/user/cars">Cars</RouterLink>
+        <RouterLink to="/user/repairs">Repairs</RouterLink>
+        <RouterLink to="/user/calendar">Book a date</RouterLink>
       </div>
       <div>
         <RouterLink to="/admin/users">Logout</RouterLink>
       </div>
     </div>
     <div class="admin_content container">
-      <img src="../../assets/book.png" alt="book a date" />
-    </div>
-
-    <div class="admin">
-      <h1>Admin Panel</h1>
-      <div class="container flex"></div>
+      <BookDateWithCalendar />
     </div>
   </div>
 </template>
 
 <script>
+import BookDateWithCalendar from "./BookDateWithCalendar.vue";
 export default {
   name: "UserPanel",
+  components: {
+    BookDateWithCalendar,
+  },
 };
 </script>
 

@@ -15,12 +15,14 @@ import {
 library.add(faFacebookSquare, faInstagramSquare, faTwitterSquare);
 
 import VueGoogleMaps from "@fawmi/vue-google-maps";
+import { SetupCalendar } from "v-calendar";
 
 const app = createApp(App);
 app.use(VueAxios, axios);
 app.use(store);
 app.use(router);
 app.component("font-awesome-icon", FontAwesomeIcon);
+app.use(SetupCalendar, {});
 app.use(VueGoogleMaps, {
   load: {
     key: "AIzaSyB77xK5tBP-cH-qd4qcOVDi6ZJuIYQrWpE",
