@@ -9,6 +9,7 @@
 }
 
 .contact__map {
+  width: 100%;
   margin: 5rem 0;
   h2 {
     color: #fff;
@@ -100,10 +101,6 @@
   padding: 10px 15px;
   text-align: center;
   background-color: #057b66;
-}
-.map__flex {
-  display: flex;
-  justify-content: center;
 }
 
 .flex__one {
